@@ -1,4 +1,3 @@
-/* @import url("https://gist.github.com/DavidWells/18e73022e723037a50d6#file-reset-css"); */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap");
 @import url('reset.css');
 
@@ -13,7 +12,7 @@ body{
         rgba(5, 5, 5, 0.623),
         rgba(51, 34, 15, 0.449)
       ),
-      url(/images/Cafe-wallpaper.jpg);
+      url(../images/Cafe-wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #f5faf5;
@@ -25,7 +24,7 @@ body{
       rgba(82, 56, 32, 0.5),
       rgba(255, 255, 255, 0)
     ),
-    url(/images/localizacao.jpg);
+    url(../images/localizacao.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -50,7 +49,7 @@ header{
         rgba(82, 56, 32, 0.5),
         rgba(255, 255, 255, 0)
       ),
-      url(/images/vintage.jpg);
+      url(../images/vintage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -62,7 +61,7 @@ header{
         rgba(0, 0, 0, 0.712),
         rgba(0, 0, 0, 0.678)
       ),
-      url(/images/eventos.jpg);
+      url(../images/eventos.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -324,7 +323,7 @@ a:link {
   }
   
   a:hover {
-    color: hotpink;
+    color: rgb(12, 90, 47);
   }
   
   a:active {
